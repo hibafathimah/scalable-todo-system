@@ -1,32 +1,18 @@
 # Scalable Todo System
 
-A full-stack Todo application built as part of a technical assessment.
-
-The focus of this project is clean architecture, separation of concerns, and a smooth user experience — not overengineering.
-
----
+A full-stack Todo application
 
 ## Tech Stack
 
 ### Frontend
-- React (Functional Components + Hooks)
-- React Context API (Observer Pattern)
+- React js
+- React Context API 
 - Tailwind CSS
 
 ### Backend
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
-
----
-
-## Architecture & Design Patterns
-
-### 1. Repository Pattern (Backend)
-Database access is isolated in a repository layer (`todo.repository.js`), keeping business logic independent from the data source.
-
-### 2. Observer Pattern (Frontend)
-Global state is managed using React Context. When a Todo changes, all subscribed components update automatically.
 
 ---
 
